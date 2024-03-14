@@ -4,12 +4,12 @@ import { FiWatch } from "react-icons/fi";
 
 const TopCategories = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex h-[20vh] flex-col">
       {" "}
       <div className="flex justify-between p-4">
         {" "}
-        <h1>Top Categories</h1>
-        <p>See All Categories</p>
+        <h1 className="text-[30px] font-[700]">Top Categories</h1>
+        <p className="text-[16px] font-[300]">See All Categories</p>
       </div>
       <div className="flex top-0 space-x-14 items-center justify-center">
         <Category

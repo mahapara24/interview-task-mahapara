@@ -1,5 +1,6 @@
 import PopularStores from "./components/sections/PopularStores";
 import TopCategories from "./components/sections/TopCategories";
+import TrendingDeals from "./components/sections/TrendingDeals";
 import HomePage from "./homepage/HomePage";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <HomePage />
       <TopCategories />
       <PopularStores />
+      <TrendingDeals />
     </>
   );
 }
